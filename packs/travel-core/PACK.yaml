@@ -1,0 +1,41 @@
+name: travel-core
+version: 1.0.0
+description: Essential travel knowledge for booking flights, hotels, and trip planning
+author: openclaw-community
+license: CC-BY-4.0
+
+enhances_skills:
+  - flight-booking
+  - hotel-booking
+  - trip-planning
+  - expense-tracking
+
+regions:
+  - global
+  - north-america
+  - europe
+  - asia-pacific
+
+claim_files:
+  - airports.claims
+  - airlines.claims
+  - booking-tips.claims
+
+stats:
+  total_claims: 156
+  by_type:
+    fact: 98
+    relationship: 32
+    context: 26
+
+update_schedule: monthly
+last_updated: 2026-01-30
+
+requires_packs: []
+
+tags:
+  - travel
+  - flights
+  - airlines
+  - airports
+  - booking

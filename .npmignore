@@ -1,0 +1,45 @@
+# Source files (dist is published instead)
+src/
+tsconfig.json
+
+# Development files
+.github/
+.vscode/
+.idea/
+*.tgz
+
+# Test files
+tests/
+*.test.ts
+*.spec.ts
+coverage/
+.nyc_output/
+
+# Documentation source (README is included)
+docs/
+
+# Dev configs
+.eslintrc*
+.prettierrc*
+.editorconfig
+vitest.config.*
+jest.config.*
+
+# Misc
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# CI/CD
+.travis.yml
+.circleci/
+azure-pipelines.yml
+
+# Package manager locks (npm will use package.json)
+yarn.lock
+pnpm-lock.yaml

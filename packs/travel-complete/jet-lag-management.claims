@@ -1,0 +1,142 @@
+claims:
+  # Understanding jet lag
+  - type: fact
+    subject: jet_lag:cause
+    predicate: explanation
+    object: "Circadian rhythm disruption from crossing time zones"
+    natural_form: "Jet lag is caused by disruption to your circadian rhythm when crossing multiple time zones"
+    confidence: 0.95
+    tags: [jet_lag, causes]
+
+  - type: fact
+    subject: jet_lag:direction
+    predicate: impact
+    object: "Eastward travel harder than westward; body adjusts 1-1.5 hours per day"
+    natural_form: "Eastward travel causes worse jet lag than westward; the body naturally adjusts about 1-1.5 hours per day"
+    confidence: 0.9
+    tags: [jet_lag, direction]
+
+  - type: fact
+    subject: jet_lag:symptoms
+    predicate: common
+    object: "Fatigue, insomnia, digestive issues, difficulty concentrating"
+    natural_form: "Common jet lag symptoms include fatigue, insomnia, digestive problems, and difficulty concentrating"
+    confidence: 0.95
+    tags: [jet_lag, symptoms]
+
+  # Pre-flight preparation
+  - type: fact
+    subject: jet_lag:pre_adjustment
+    predicate: strategy
+    object: "Shift sleep schedule 1 hour per day toward destination time"
+    natural_form: "Start shifting your sleep schedule 1 hour per day toward destination time zone 3-4 days before travel"
+    confidence: 0.85
+    tags: [jet_lag, prevention]
+
+  - type: fact
+    subject: jet_lag:sleep_bank
+    predicate: tip
+    object: "Get extra sleep before long flights"
+    natural_form: "Get extra sleep in the days before a long flight; being well-rested reduces jet lag severity"
+    confidence: 0.85
+    tags: [jet_lag, prevention]
+
+  # During flight
+  - type: fact
+    subject: jet_lag:hydration
+    predicate: importance
+    object: "Drink water every hour; avoid alcohol and caffeine"
+    natural_form: "Stay hydrated by drinking water every hour on long flights; avoid alcohol and caffeine which worsen dehydration"
+    confidence: 0.9
+    tags: [jet_lag, hydration]
+
+  - type: fact
+    subject: jet_lag:watch_change
+    predicate: strategy
+    object: "Set watch to destination time at departure"
+    natural_form: "Set your watch to destination time zone as soon as you board to mentally prepare for the new schedule"
+    confidence: 0.85
+    tags: [jet_lag, mental]
+
+  - type: fact
+    subject: jet_lag:in_flight_sleep
+    predicate: timing
+    object: "Sleep on plane if it's nighttime at destination"
+    natural_form: "Try to sleep on the plane if it's nighttime at your destination; stay awake if it's daytime there"
+    confidence: 0.9
+    tags: [jet_lag, sleep]
+
+  - type: fact
+    subject: jet_lag:movement
+    predicate: benefit
+    object: "Walk and stretch every 2 hours to improve circulation"
+    natural_form: "Walk the aisle and do stretching exercises every 2 hours to improve circulation and reduce fatigue"
+    confidence: 0.9
+    tags: [jet_lag, movement]
+
+  # Upon arrival
+  - type: fact
+    subject: jet_lag:sunlight
+    predicate: importance
+    object: "Morning sunlight helps reset circadian rhythm fastest"
+    natural_form: "Get bright morning sunlight upon arrival; natural light is the most powerful circadian rhythm reset"
+    confidence: 0.95
+    tags: [jet_lag, light, recovery]
+
+  - type: fact
+    subject: jet_lag:first_day
+    predicate: strategy
+    object: "Stay awake until local bedtime, even if tired"
+    natural_form: "Stay awake until local bedtime on arrival day, even if exhausted; short 20-min nap only if necessary"
+    confidence: 0.9
+    tags: [jet_lag, recovery]
+
+  - type: fact
+    subject: jet_lag:naps
+    predicate: limit
+    object: "Limit naps to 20 minutes; avoid napping after 2pm"
+    natural_form: "If you must nap, limit to 20 minutes and avoid napping after 2pm local time"
+    confidence: 0.85
+    tags: [jet_lag, naps]
+
+  - type: fact
+    subject: jet_lag:meals
+    predicate: timing
+    object: "Eat meals at local times to help reset body clock"
+    natural_form: "Eat meals at local times to help reset your internal clock; avoid heavy meals close to bedtime"
+    confidence: 0.9
+    tags: [jet_lag, meals]
+
+  # Supplements and aids
+  - type: fact
+    subject: jet_lag:melatonin
+    predicate: usage
+    object: "0.5-3mg 30 minutes before destination bedtime"
+    natural_form: "Melatonin (0.5-3mg) taken 30 minutes before destination bedtime can help adjust sleep schedule"
+    confidence: 0.85
+    tags: [jet_lag, supplements]
+
+  - type: context
+    subject: jet_lag:sleep_aids
+    predicate: caution
+    object: "Avoid prescription sleep aids on planes due to DVT risk"
+    natural_form: "Avoid strong prescription sleep aids on planes as they can increase deep vein thrombosis (DVT) risk from immobility"
+    confidence: 0.85
+    tags: [jet_lag, safety]
+
+  # Recovery timeline
+  - type: fact
+    subject: jet_lag:recovery
+    predicate: timeline
+    object: "Full adjustment takes 1 day per time zone crossed"
+    natural_form: "Full recovery from jet lag typically takes about 1 day per time zone crossed"
+    confidence: 0.85
+    tags: [jet_lag, recovery]
+
+  - type: fact
+    subject: jet_lag:exercise
+    predicate: benefit
+    object: "Light exercise helps but avoid intense workouts first 2 days"
+    natural_form: "Light exercise helps adjustment but avoid intense workouts for the first 2 days after arrival"
+    confidence: 0.85
+    tags: [jet_lag, exercise]

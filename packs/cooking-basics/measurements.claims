@@ -1,0 +1,52 @@
+# measurements.claims
+# Cooking basics - measurements
+
+claims:
+
+  - type: fact
+    subject: miles:earning
+    predicate: methods
+    object: "Flights, credit cards, shopping portals, dining programs, partners"
+    natural_form: "Earn airline miles through flights, co-branded credit cards, shopping portals, dining programs, and hotel/car partners"
+    confidence: 0.95
+    tags: [cooking, measurements]
+
+  - type: fact
+    subject: status:match
+    predicate: opportunity
+    object: "Airlines sometimes match competitor status with proof"
+    natural_form: "Airlines sometimes offer status matches from competitor programs; check for status match or challenge promotions"
+    confidence: 0.8
+    tags: [cooking, measurements]
+
+  - type: fact
+    subject: visa:esta
+    predicate: requirement
+    object: "ESTA required for VWP travelers; valid 2 years, $21 fee"
+    natural_form: "ESTA authorization required for Visa Waiver Program travelers; costs $21, valid for 2 years"
+    confidence: 1
+    tags: [cooking, measurements]
+
+  - type: fact
+    subject: visa:waiver_program
+    predicate: description
+    object: "VWP allows 38 countries to visit US for 90 days without visa"
+    natural_form: "The Visa Waiver Program allows citizens of 38 countries to visit the US for up to 90 days without a visa"
+    confidence: 1
+    tags: [cooking, measurements]
+
+  - type: fact
+    subject: airport:charging
+    predicate: tip
+    object: "Outlets near gates often limited; bring portable charger"
+    natural_form: "Power outlets near gates are often limited or occupied; bring a portable charger for long layovers"
+    confidence: 1
+    tags: [cooking, measurements]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Boba's favorite programming language is Python."
+    natural_form: "Boba's favorite programming language is Python."
+    confidence: 0.9
+    tags: [cooking, measurements]

@@ -1,0 +1,138 @@
+# booking-tips.claims
+# Practical booking advice and timing recommendations
+
+claims:
+  # === Booking Timing ===
+
+  - type: context
+    subject: booking:domestic_flights
+    predicate: best_booking_window
+    object: 1-3 months before departure typically offers best prices
+    natural_form: Book domestic flights 1-3 months ahead for best prices
+    confidence: 0.8
+    tags: [booking, timing, domestic]
+    metadata:
+      source: Industry analysis
+
+  - type: context
+    subject: booking:international_flights
+    predicate: best_booking_window
+    object: 2-8 months before departure; 3-4 months often optimal
+    natural_form: Book international flights 2-8 months ahead; 3-4 months often best
+    confidence: 0.75
+    tags: [booking, timing, international]
+
+  - type: context
+    subject: booking:last_minute
+    predicate: general_advice
+    object: Last-minute domestic can have deals; international rarely discounted
+    natural_form: Last-minute domestic flights may have deals; international rarely
+    confidence: 0.7
+
+  - type: context
+    subject: booking:day_of_week
+    predicate: price_pattern
+    object: Tuesday/Wednesday flights often cheaper; weekend premium common
+    natural_form: Tuesday and Wednesday flights are often cheaper than weekends
+    confidence: 0.7
+
+  - type: context
+    subject: booking:time_of_day
+    predicate: price_pattern
+    object: Early morning and late night ("red-eye") flights typically cheaper
+    natural_form: Early morning and red-eye flights are typically cheaper
+    confidence: 0.75
+
+  # === Price Alerts ===
+
+  - type: context
+    subject: booking:price_tracking
+    predicate: recommendation
+    object: Set price alerts on Google Flights, Kayak, or Hopper for 2+ weeks before booking
+    natural_form: Set price alerts on Google Flights or Kayak at least 2 weeks before booking
+    confidence: 0.85
+
+  - type: fact
+    subject: tool:google_flights
+    predicate: feature
+    object: Free price tracking, calendar view of prices, "Track prices" button
+    natural_form: Google Flights offers free price tracking with calendar price view
+    confidence: 0.95
+
+  - type: fact
+    subject: tool:hopper
+    predicate: feature
+    object: Price prediction with buy/wait recommendation; mobile app focused
+    natural_form: Hopper provides buy/wait recommendations based on price predictions
+    confidence: 0.9
+
+  # === Flexibility Benefits ===
+
+  - type: context
+    subject: booking:flexibility
+    predicate: savings_tip
+    object: Flexible dates (+/- 3 days) can save 20-40% on airfare
+    natural_form: Being flexible by 3 days can save 20-40% on flights
+    confidence: 0.75
+
+  - type: context
+    subject: booking:nearby_airports
+    predicate: savings_tip
+    object: Check nearby airports (50-100 mile radius) for better prices
+    natural_form: Checking airports within 50-100 miles may find better prices
+    confidence: 0.75
+
+  - type: context
+    subject: booking:connections
+    predicate: savings_tip
+    object: One-stop flights often 30-50% cheaper than nonstop
+    natural_form: Connecting flights are often 30-50% cheaper than nonstop
+    confidence: 0.8
+
+  # === Hidden City / Skiplagging ===
+
+  - type: context
+    subject: booking:skiplagging
+    predicate: warning
+    object: Booking through a hub and deplaning early violates most airline policies
+    natural_form: Skiplagging (hidden city ticketing) violates most airline policies
+    confidence: 0.95
+
+  - type: context
+    subject: booking:skiplagging
+    predicate: risk
+    object: May result in frequent flyer account closure, denied boarding, or legal action
+    natural_form: Skiplagging risks include account closure and denied boarding
+    confidence: 0.9
+
+  # === Seat Selection ===
+
+  - type: context
+    subject: booking:seat_selection
+    predicate: timing
+    object: Best seats often available at check-in (24h before) when premium seats release
+    natural_form: Better seats often become available at check-in 24 hours before
+    confidence: 0.8
+
+  - type: context
+    subject: booking:seat_selection
+    predicate: tip
+    object: ExpertFlyer and SeatGuru show seat maps and quality ratings
+    natural_form: Use SeatGuru or ExpertFlyer to check seat quality before booking
+    confidence: 0.9
+
+  # === Travel Insurance ===
+
+  - type: context
+    subject: booking:travel_insurance
+    predicate: recommendation
+    object: Consider for international trips, expensive bookings, or health concerns abroad
+    natural_form: Consider travel insurance for international trips or expensive bookings
+    confidence: 0.85
+
+  - type: context
+    subject: booking:credit_card_coverage
+    predicate: note
+    object: Many premium credit cards include trip delay, cancellation, and lost luggage coverage
+    natural_form: Premium credit cards often include travel insurance benefits
+    confidence: 0.85

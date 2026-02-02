@@ -1,0 +1,263 @@
+# airports.claims
+# Major world airports with essential information for travel booking
+
+claims:
+  # === North America - Major Hubs ===
+  
+  - type: fact
+    subject: airport:ATL
+    predicate: full_name
+    object: Hartsfield-Jackson Atlanta International Airport
+    natural_form: ATL is Hartsfield-Jackson Atlanta International Airport
+    confidence: 1.0
+    tags: [airport, hub, usa, southeast]
+    
+  - type: fact
+    subject: airport:ATL
+    predicate: is_located_in
+    object: Atlanta, Georgia, USA
+    natural_form: ATL Airport is located in Atlanta, Georgia, USA
+    confidence: 1.0
+
+  - type: context
+    subject: airport:ATL
+    predicate: transfer_recommendation
+    object: Allow 60-90 minutes for connections; airport is large but efficient train system
+    natural_form: At ATL, allow 60-90 minutes for connections due to size
+    confidence: 0.9
+    
+  - type: fact
+    subject: airport:JFK
+    predicate: full_name
+    object: John F. Kennedy International Airport
+    natural_form: JFK is John F. Kennedy International Airport
+    confidence: 1.0
+    tags: [airport, hub, usa, northeast]
+    
+  - type: fact
+    subject: airport:JFK
+    predicate: is_located_in
+    object: New York City, New York, USA
+    natural_form: JFK Airport is located in New York City, USA
+    confidence: 1.0
+
+  - type: context
+    subject: airport:JFK
+    predicate: transfer_recommendation
+    object: Allow 2-3 hours for international connections; terminals require shuttle/AirTrain
+    natural_form: At JFK, allow 2-3 hours for connections between terminals
+    confidence: 0.9
+    
+  - type: fact
+    subject: airport:LAX
+    predicate: full_name
+    object: Los Angeles International Airport
+    natural_form: LAX is Los Angeles International Airport
+    confidence: 1.0
+    tags: [airport, hub, usa, west]
+    
+  - type: fact
+    subject: airport:LAX
+    predicate: is_located_in
+    object: Los Angeles, California, USA
+    natural_form: LAX Airport is located in Los Angeles, California, USA
+    confidence: 1.0
+
+  - type: context
+    subject: airport:LAX
+    predicate: transfer_recommendation
+    object: Allow 90-120 minutes; terminal changes require shuttle buses
+    natural_form: At LAX, allow 90-120 minutes for terminal changes
+    confidence: 0.85
+    
+  - type: fact
+    subject: airport:ORD
+    predicate: full_name
+    object: O'Hare International Airport
+    natural_form: ORD is O'Hare International Airport in Chicago
+    confidence: 1.0
+    tags: [airport, hub, usa, midwest]
+    
+  - type: fact
+    subject: airport:ORD
+    predicate: is_located_in
+    object: Chicago, Illinois, USA
+    natural_form: ORD Airport is located in Chicago, Illinois, USA
+    confidence: 1.0
+
+  - type: fact
+    subject: airport:DFW
+    predicate: full_name
+    object: Dallas/Fort Worth International Airport
+    natural_form: DFW is Dallas/Fort Worth International Airport
+    confidence: 1.0
+    tags: [airport, hub, usa, southwest]
+
+  - type: fact
+    subject: airport:DEN
+    predicate: full_name
+    object: Denver International Airport
+    natural_form: DEN is Denver International Airport
+    confidence: 1.0
+    tags: [airport, hub, usa, mountain]
+
+  - type: context
+    subject: airport:DEN
+    predicate: notable_feature
+    object: Located 25 miles from downtown; train connection available
+    natural_form: DEN is 25 miles from downtown Denver with train connection
+    confidence: 0.95
+
+  - type: fact
+    subject: airport:SFO
+    predicate: full_name
+    object: San Francisco International Airport
+    natural_form: SFO is San Francisco International Airport
+    confidence: 1.0
+    tags: [airport, hub, usa, west]
+
+  - type: context
+    subject: airport:SFO
+    predicate: weather_impact
+    object: Frequent fog delays, especially summer mornings; book morning flights with caution
+    natural_form: SFO has frequent fog delays, especially summer mornings
+    confidence: 0.85
+
+  # === Europe - Major Hubs ===
+  
+  - type: fact
+    subject: airport:LHR
+    predicate: full_name
+    object: London Heathrow Airport
+    natural_form: LHR is London Heathrow Airport
+    confidence: 1.0
+    tags: [airport, hub, uk, europe]
+    
+  - type: fact
+    subject: airport:LHR
+    predicate: is_located_in
+    object: London, United Kingdom
+    natural_form: Heathrow Airport is located in London, UK
+    confidence: 1.0
+
+  - type: context
+    subject: airport:LHR
+    predicate: transfer_recommendation
+    object: Allow minimum 90 minutes; some terminal changes require bus/train
+    natural_form: At Heathrow, allow minimum 90 minutes for connections
+    confidence: 0.9
+
+  - type: fact
+    subject: airport:CDG
+    predicate: full_name
+    object: Charles de Gaulle Airport
+    natural_form: CDG is Charles de Gaulle Airport in Paris
+    confidence: 1.0
+    tags: [airport, hub, france, europe]
+
+  - type: fact
+    subject: airport:CDG
+    predicate: is_located_in
+    object: Paris, France
+    natural_form: CDG Airport is located in Paris, France
+    confidence: 1.0
+
+  - type: context
+    subject: airport:CDG
+    predicate: transfer_recommendation
+    object: Allow 90-120 minutes; terminals spread out with shuttle required
+    natural_form: At CDG Paris, allow 90-120 minutes for connections
+    confidence: 0.85
+
+  - type: fact
+    subject: airport:FRA
+    predicate: full_name
+    object: Frankfurt Airport
+    natural_form: FRA is Frankfurt Airport
+    confidence: 1.0
+    tags: [airport, hub, germany, europe]
+
+  - type: fact
+    subject: airport:AMS
+    predicate: full_name
+    object: Amsterdam Airport Schiphol
+    natural_form: AMS is Amsterdam Schiphol Airport
+    confidence: 1.0
+    tags: [airport, hub, netherlands, europe]
+
+  - type: context
+    subject: airport:AMS
+    predicate: notable_feature
+    object: Single-terminal design makes connections efficient; 45-60 minutes usually sufficient
+    natural_form: Schiphol has efficient single-terminal design; 45-60 min connections work
+    confidence: 0.9
+
+  # === Asia-Pacific - Major Hubs ===
+
+  - type: fact
+    subject: airport:NRT
+    predicate: full_name
+    object: Narita International Airport
+    natural_form: NRT is Narita International Airport serving Tokyo
+    confidence: 1.0
+    tags: [airport, hub, japan, asia]
+
+  - type: context
+    subject: airport:NRT
+    predicate: notable_feature
+    object: Located 60km from central Tokyo; allow 90+ minutes for city travel
+    natural_form: Narita is 60km from Tokyo center; allow 90+ minutes to city
+    confidence: 0.95
+
+  - type: fact
+    subject: airport:HND
+    predicate: full_name
+    object: Tokyo Haneda Airport
+    natural_form: HND is Tokyo Haneda Airport
+    confidence: 1.0
+    tags: [airport, hub, japan, asia]
+
+  - type: context
+    subject: airport:HND
+    predicate: notable_feature
+    object: Closer to central Tokyo (30 min); preferred for domestic and some international
+    natural_form: Haneda is closer to Tokyo (30 min) and often preferred over Narita
+    confidence: 0.9
+
+  - type: fact
+    subject: airport:SIN
+    predicate: full_name
+    object: Singapore Changi Airport
+    natural_form: SIN is Singapore Changi Airport
+    confidence: 1.0
+    tags: [airport, hub, singapore, asia]
+
+  - type: context
+    subject: airport:SIN
+    predicate: notable_feature
+    object: Consistently rated world's best airport; excellent amenities and efficient transfers
+    natural_form: Changi Singapore is consistently rated world's best airport
+    confidence: 0.95
+
+  - type: fact
+    subject: airport:HKG
+    predicate: full_name
+    object: Hong Kong International Airport
+    natural_form: HKG is Hong Kong International Airport
+    confidence: 1.0
+    tags: [airport, hub, hong-kong, asia]
+
+  - type: fact
+    subject: airport:DXB
+    predicate: full_name
+    object: Dubai International Airport
+    natural_form: DXB is Dubai International Airport
+    confidence: 1.0
+    tags: [airport, hub, uae, middle-east]
+
+  - type: context
+    subject: airport:DXB
+    predicate: notable_feature
+    object: Major connecting hub between East and West; Emirates home base
+    natural_form: Dubai DXB is a major connecting hub between East and West
+    confidence: 0.95

@@ -1,0 +1,150 @@
+claims:
+  # Airline alliances
+  - type: relationship
+    subject: alliance:star_alliance
+    predicate: members
+    object: "United, Lufthansa, ANA, Singapore, Air Canada, Turkish, Swiss, and 20+ others"
+    natural_form: "Star Alliance members include United, Lufthansa, ANA, Singapore Airlines, Air Canada, Turkish, Swiss, and over 20 others"
+    confidence: 0.95
+    tags: [alliances, star_alliance]
+
+  - type: relationship
+    subject: alliance:oneworld
+    predicate: members
+    object: "American, British Airways, Qantas, Cathay Pacific, JAL, Qatar, Iberia"
+    natural_form: "Oneworld Alliance members include American, British Airways, Qantas, Cathay Pacific, JAL, Qatar, and Iberia"
+    confidence: 0.95
+    tags: [alliances, oneworld]
+
+  - type: relationship
+    subject: alliance:skyteam
+    predicate: members
+    object: "Delta, Air France, KLM, Korean Air, Aeromexico, Virgin Atlantic"
+    natural_form: "SkyTeam Alliance members include Delta, Air France, KLM, Korean Air, Aeromexico, and Virgin Atlantic"
+    confidence: 0.95
+    tags: [alliances, skyteam]
+
+  - type: fact
+    subject: alliances:benefit
+    predicate: value
+    object: "Earn and redeem miles across all member airlines"
+    natural_form: "Alliance membership allows earning and redeeming miles across all member airlines and accessing partner lounges"
+    confidence: 0.95
+    tags: [alliances, benefits]
+
+  # Earning strategies
+  - type: fact
+    subject: miles:earning
+    predicate: methods
+    object: "Flights, credit cards, shopping portals, dining programs, partners"
+    natural_form: "Earn airline miles through flights, co-branded credit cards, shopping portals, dining programs, and hotel/car partners"
+    confidence: 0.95
+    tags: [miles, earning]
+
+  - type: fact
+    subject: miles:credit_cards
+    predicate: value
+    object: "Sign-up bonuses often worth 50,000-100,000+ miles"
+    natural_form: "Airline credit card sign-up bonuses are often worth 50,000-100,000+ miles, enough for domestic or international flights"
+    confidence: 0.9
+    tags: [miles, credit_cards]
+
+  - type: fact
+    subject: miles:shopping_portals
+    predicate: earnings
+    object: "1-20+ miles per dollar at online retailers"
+    natural_form: "Airline shopping portals offer 1-20+ miles per dollar spent at hundreds of online retailers"
+    confidence: 0.9
+    tags: [miles, shopping]
+
+  # Status benefits
+  - type: fact
+    subject: status:benefits
+    predicate: typical
+    object: "Priority boarding, free bags, upgrades, lounge access, bonus miles"
+    natural_form: "Airline elite status typically includes priority boarding, free checked bags, upgrade eligibility, lounge access, and bonus miles"
+    confidence: 0.95
+    tags: [status, benefits]
+
+  - type: fact
+    subject: status:qualification
+    predicate: methods
+    object: "Earn through flying segments/miles or credit card spend"
+    natural_form: "Qualify for airline status by flying a certain number of segments or miles, or through high credit card spending"
+    confidence: 0.9
+    tags: [status, qualification]
+
+  - type: fact
+    subject: status:match
+    predicate: opportunity
+    object: "Airlines sometimes match competitor status with proof"
+    natural_form: "Airlines sometimes offer status matches from competitor programs; check for status match or challenge promotions"
+    confidence: 0.8
+    tags: [status, matching]
+
+  # Hotel programs
+  - type: relationship
+    subject: hotel:marriott_bonvoy
+    predicate: brands
+    object: "Marriott, Sheraton, Westin, W, Ritz-Carlton, St. Regis, and 25+ brands"
+    natural_form: "Marriott Bonvoy encompasses 30+ brands including Marriott, Sheraton, Westin, W, Ritz-Carlton, and St. Regis"
+    confidence: 0.95
+    tags: [hotels, marriott]
+
+  - type: relationship
+    subject: hotel:hilton_honors
+    predicate: brands
+    object: "Hilton, DoubleTree, Hampton, Embassy Suites, Waldorf Astoria, Conrad"
+    natural_form: "Hilton Honors includes Hilton, DoubleTree, Hampton Inn, Embassy Suites, Waldorf Astoria, and Conrad"
+    confidence: 0.95
+    tags: [hotels, hilton]
+
+  - type: relationship
+    subject: hotel:ihg_rewards
+    predicate: brands
+    object: "Holiday Inn, Crowne Plaza, InterContinental, Kimpton, Hotel Indigo"
+    natural_form: "IHG Rewards covers Holiday Inn, Crowne Plaza, InterContinental, Kimpton, and Hotel Indigo"
+    confidence: 0.95
+    tags: [hotels, ihg]
+
+  - type: fact
+    subject: hotel:status_benefits
+    predicate: typical
+    object: "Room upgrades, late checkout, breakfast, lounge access, bonus points"
+    natural_form: "Hotel elite status typically includes room upgrades, late checkout, free breakfast, lounge access, and bonus points"
+    confidence: 0.95
+    tags: [hotels, status]
+
+  # Transfer partners
+  - type: fact
+    subject: points:transfer_partners
+    predicate: value
+    object: "Amex, Chase, Citi points transfer 1:1 to many airline/hotel programs"
+    natural_form: "Credit card points from Amex, Chase, and Citi transfer 1:1 to many airline and hotel partners, often the best value"
+    confidence: 0.9
+    tags: [points, transfers]
+
+  - type: fact
+    subject: points:transfer_bonuses
+    predicate: opportunity
+    object: "Transfer bonuses of 20-40% offered periodically"
+    natural_form: "Watch for transfer bonuses offering 20-40% extra miles/points when transferring to partners"
+    confidence: 0.85
+    tags: [points, bonuses]
+
+  # Redemption tips
+  - type: fact
+    subject: redemption:sweet_spots
+    predicate: examples
+    object: "Partner awards, off-peak pricing, fifth night free hotels"
+    natural_form: "Redemption sweet spots include partner airline awards, off-peak award pricing, and fifth night free on hotel stays"
+    confidence: 0.85
+    tags: [redemption, tips]
+
+  - type: fact
+    subject: redemption:flexibility
+    predicate: tip
+    object: "Flexible dates and airports significantly improve award availability"
+    natural_form: "Being flexible with dates and departure airports significantly improves award flight availability"
+    confidence: 0.9
+    tags: [redemption, availability]

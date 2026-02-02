@@ -1,0 +1,143 @@
+claims:
+  # Carry-on essentials
+  - type: fact
+    subject: packing:carry_on
+    predicate: must_have
+    object: "Passport, medications, valuables, phone charger, change of clothes"
+    natural_form: "Always pack passport, medications, valuables, phone charger, and one change of clothes in carry-on"
+    confidence: 0.95
+    tags: [carry_on, essentials]
+
+  - type: fact
+    subject: packing:medications
+    predicate: rule
+    object: "Keep in original containers with prescription labels"
+    natural_form: "Keep medications in original containers with prescription labels; carry doctor's note for controlled substances"
+    confidence: 0.95
+    tags: [medications, regulations]
+
+  - type: fact
+    subject: carry_on:size
+    predicate: standard
+    object: "22 x 14 x 9 inches for most airlines"
+    natural_form: "Standard carry-on size is 22 x 14 x 9 inches (56 x 36 x 23 cm) for most airlines"
+    confidence: 0.9
+    tags: [carry_on, dimensions]
+
+  - type: fact
+    subject: personal_item:size
+    predicate: standard
+    object: "18 x 14 x 8 inches for most airlines"
+    natural_form: "Personal item size is typically 18 x 14 x 8 inches; must fit under seat in front"
+    confidence: 0.9
+    tags: [personal_item, dimensions]
+
+  # Packing techniques
+  - type: fact
+    subject: packing:rolling
+    predicate: benefit
+    object: "Reduces wrinkles and saves 30% space"
+    natural_form: "Rolling clothes instead of folding reduces wrinkles and saves approximately 30% space"
+    confidence: 0.85
+    tags: [techniques, efficiency]
+
+  - type: fact
+    subject: packing:cubes
+    predicate: benefit
+    object: "Organize by category, compress clothes, easy unpacking"
+    natural_form: "Packing cubes organize items by category, compress clothes, and make unpacking easy"
+    confidence: 0.9
+    tags: [techniques, organization]
+
+  - type: fact
+    subject: packing:shoes
+    predicate: tip
+    object: "Pack socks inside shoes, wrap in shower cap"
+    natural_form: "Pack socks inside shoes to save space; wrap shoes in shower caps to protect other items"
+    confidence: 0.85
+    tags: [techniques, tips]
+
+  # Electronics
+  - type: fact
+    subject: packing:batteries
+    predicate: rule
+    object: "Lithium batteries must be in carry-on, not checked"
+    natural_form: "Lithium batteries and power banks must be in carry-on luggage, not checked bags"
+    confidence: 1.0
+    tags: [electronics, regulations]
+
+  - type: fact
+    subject: packing:adapters
+    predicate: necessity
+    object: "Research destination plug types; universal adapter recommended"
+    natural_form: "Research destination plug types before travel; a universal adapter covers most countries"
+    confidence: 0.95
+    tags: [electronics, international]
+
+  # Toiletries
+  - type: fact
+    subject: packing:toiletries
+    predicate: tip
+    object: "Use solid alternatives: bar soap, shampoo bars, solid deodorant"
+    natural_form: "Use solid toiletries (bar soap, shampoo bars, solid deodorant) to avoid liquid restrictions"
+    confidence: 0.9
+    tags: [toiletries, tips]
+
+  - type: fact
+    subject: packing:contact_solution
+    predicate: exception
+    object: "Medically necessary liquids exempt from 3.4oz rule with declaration"
+    natural_form: "Contact lens solution and other medically necessary liquids are exempt from 3.4oz rule if declared at security"
+    confidence: 0.9
+    tags: [toiletries, exceptions]
+
+  # Clothing strategies
+  - type: fact
+    subject: packing:clothing
+    predicate: strategy
+    object: "Pack neutral colors that mix and match; layers for temperature changes"
+    natural_form: "Pack neutral colors that mix and match for multiple outfits; bring layers for temperature changes"
+    confidence: 0.9
+    tags: [clothing, strategy]
+
+  - type: fact
+    subject: packing:laundry
+    predicate: tip
+    object: "Pack small laundry kit for trips over 5 days"
+    natural_form: "For trips over 5 days, pack a small laundry kit (detergent sheets, sink stopper) to rewear clothes"
+    confidence: 0.85
+    tags: [clothing, long_trips]
+
+  # Documents
+  - type: fact
+    subject: packing:documents
+    predicate: checklist
+    object: "Passport, visa, tickets, hotel confirmations, travel insurance, copies"
+    natural_form: "Document checklist: passport, visas, tickets, hotel confirmations, travel insurance, and digital copies of all"
+    confidence: 0.95
+    tags: [documents, checklist]
+
+  - type: fact
+    subject: packing:copies
+    predicate: recommendation
+    object: "Keep digital copies in cloud and physical copies separate from originals"
+    natural_form: "Keep digital document copies in cloud storage and physical copies in a separate bag from originals"
+    confidence: 0.9
+    tags: [documents, backup]
+
+  # Weight limits
+  - type: fact
+    subject: luggage:checked_weight
+    predicate: standard
+    object: "50 lbs (23 kg) for most US airlines; 70 lbs for first/business"
+    natural_form: "Standard checked bag weight limit is 50 lbs (23 kg) for economy; 70 lbs for premium cabins"
+    confidence: 0.9
+    tags: [luggage, weight]
+
+  - type: fact
+    subject: luggage:overweight_fee
+    predicate: cost
+    object: "$100-200 for bags 51-70 lbs; oversized similar"
+    natural_form: "Overweight bag fees typically range $100-200 for bags between 51-70 lbs"
+    confidence: 0.85
+    tags: [luggage, fees]

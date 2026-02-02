@@ -1,0 +1,52 @@
+# substitutions.claims
+# Cooking basics - substitutions
+
+claims:
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Heavy cream substitute for cooking is three quarters cup milk plus one quarter cup melted butter."
+    natural_form: "Heavy cream substitute for cooking is three quarters cup milk plus one quarter cup melted butter."
+    confidence: 0.9
+    tags: [cooking, substitutions]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Greek yogurt can substitute for sour cream at a one to one ratio."
+    natural_form: "Greek yogurt can substitute for sour cream at a one to one ratio."
+    confidence: 0.9
+    tags: [cooking, substitutions]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Flax egg substitute is one tablespoon ground flax mixed with three tablespoons water rested five minutes."
+    natural_form: "Flax egg substitute is one tablespoon ground flax mixed with three tablespoons water rested five minutes."
+    confidence: 0.9
+    tags: [cooking, substitutions]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Brown sugar substitute is one cup white sugar plus one to two tablespoons molasses."
+    natural_form: "Brown sugar substitute is one cup white sugar plus one to two tablespoons molasses."
+    confidence: 0.9
+    tags: [cooking, substitutions]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Cake flour substitute is one cup all purpose flour minus two tablespoons plus two tablespoons cornstarch."
+    natural_form: "Cake flour substitute is one cup all purpose flour minus two tablespoons plus two tablespoons cornstarch."
+    confidence: 0.9
+    tags: [cooking, substitutions]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Buttermilk substitute is one cup milk plus one tablespoon lemon juice or vinegar."
+    natural_form: "Buttermilk substitute is one cup milk plus one tablespoon lemon juice or vinegar."
+    confidence: 0.9
+    tags: [cooking, substitutions]

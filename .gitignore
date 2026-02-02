@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Package tarballs
+*.tgz
+
+# Temp files
+*.tmp
+*.temp
+.cache/
+
+# Database files (for local testing)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# TypeScript cache
+*.tsbuildinfo

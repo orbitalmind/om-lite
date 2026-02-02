@@ -1,0 +1,223 @@
+# airlines.claims
+# Major airlines, alliances, and policies useful for booking
+
+claims:
+  # === Airline Alliances ===
+  
+  - type: fact
+    subject: alliance:star_alliance
+    predicate: description
+    object: Largest airline alliance with 26 member airlines
+    natural_form: Star Alliance is the largest airline alliance with 26 members
+    confidence: 1.0
+    tags: [alliance, airlines]
+    
+  - type: relationship
+    subject: airline:united
+    predicate: member_of
+    object: alliance:star_alliance
+    natural_form: United Airlines is a member of Star Alliance
+    confidence: 1.0
+
+  - type: relationship
+    subject: airline:lufthansa
+    predicate: member_of
+    object: alliance:star_alliance
+    natural_form: Lufthansa is a member of Star Alliance
+    confidence: 1.0
+
+  - type: relationship
+    subject: airline:ana
+    predicate: member_of
+    object: alliance:star_alliance
+    natural_form: ANA (All Nippon Airways) is a member of Star Alliance
+    confidence: 1.0
+
+  - type: relationship
+    subject: airline:singapore
+    predicate: member_of
+    object: alliance:star_alliance
+    natural_form: Singapore Airlines is a member of Star Alliance
+    confidence: 1.0
+
+  - type: relationship
+    subject: airline:air_canada
+    predicate: member_of
+    object: alliance:star_alliance
+    natural_form: Air Canada is a member of Star Alliance
+    confidence: 1.0
+
+  - type: fact
+    subject: alliance:oneworld
+    predicate: description
+    object: Global airline alliance with American, British Airways, and 11 others
+    natural_form: Oneworld alliance includes American, British Airways, and 11 other airlines
+    confidence: 1.0
+    tags: [alliance, airlines]
+
+  - type: relationship
+    subject: airline:american
+    predicate: member_of
+    object: alliance:oneworld
+    natural_form: American Airlines is a member of Oneworld alliance
+    confidence: 1.0
+
+  - type: relationship
+    subject: airline:british_airways
+    predicate: member_of
+    object: alliance:oneworld
+    natural_form: British Airways is a member of Oneworld alliance
+    confidence: 1.0
+
+  - type: relationship
+    subject: airline:qantas
+    predicate: member_of
+    object: alliance:oneworld
+    natural_form: Qantas is a member of Oneworld alliance
+    confidence: 1.0
+
+  - type: relationship
+    subject: airline:jal
+    predicate: member_of
+    object: alliance:oneworld
+    natural_form: Japan Airlines (JAL) is a member of Oneworld alliance
+    confidence: 1.0
+
+  - type: fact
+    subject: alliance:skyteam
+    predicate: description
+    object: Airline alliance with Delta, Air France-KLM, and 17 others
+    natural_form: SkyTeam alliance includes Delta, Air France-KLM, and 17 other airlines
+    confidence: 1.0
+    tags: [alliance, airlines]
+
+  - type: relationship
+    subject: airline:delta
+    predicate: member_of
+    object: alliance:skyteam
+    natural_form: Delta Air Lines is a member of SkyTeam alliance
+    confidence: 1.0
+
+  - type: relationship
+    subject: airline:air_france
+    predicate: member_of
+    object: alliance:skyteam
+    natural_form: Air France is a member of SkyTeam alliance
+    confidence: 1.0
+
+  - type: relationship
+    subject: airline:klm
+    predicate: member_of
+    object: alliance:skyteam
+    natural_form: KLM Royal Dutch Airlines is a member of SkyTeam alliance
+    confidence: 1.0
+
+  - type: relationship
+    subject: airline:korean_air
+    predicate: member_of
+    object: alliance:skyteam
+    natural_form: Korean Air is a member of SkyTeam alliance
+    confidence: 1.0
+
+  # === Baggage Policies (commonly needed) ===
+
+  - type: fact
+    subject: airline:southwest
+    predicate: baggage_policy
+    object: 2 free checked bags up to 50 lbs each; no change fees
+    natural_form: Southwest allows 2 free checked bags up to 50 lbs each
+    confidence: 0.95
+    metadata:
+      as_of: 2026-01
+    tags: [baggage, policy, usa]
+
+  - type: fact
+    subject: airline:southwest
+    predicate: notable_policy
+    object: No assigned seats; boarding groups based on check-in time
+    natural_form: Southwest has open seating with boarding groups based on check-in time
+    confidence: 0.95
+
+  - type: fact
+    subject: airline:jetblue
+    predicate: baggage_policy
+    object: Blue Basic has no free checked bags; Blue fare includes 1 free
+    natural_form: JetBlue Blue Basic has no free checked bags; Blue fare includes 1
+    confidence: 0.9
+    metadata:
+      as_of: 2026-01
+    tags: [baggage, policy, usa]
+
+  - type: fact
+    subject: airline:spirit
+    predicate: baggage_policy
+    object: Ultra-low cost; personal item free, carry-on and checked bags extra ($30-65)
+    natural_form: Spirit charges extra for carry-on and checked bags ($30-65)
+    confidence: 0.85
+    metadata:
+      as_of: 2026-01
+    tags: [baggage, policy, usa, budget]
+
+  - type: fact
+    subject: airline:frontier
+    predicate: baggage_policy
+    object: Ultra-low cost; personal item free, carry-on and checked bags extra
+    natural_form: Frontier charges extra for carry-on and checked bags
+    confidence: 0.85
+    tags: [baggage, policy, usa, budget]
+
+  - type: context
+    subject: airline:budget_carriers
+    predicate: general_advice
+    object: Spirit, Frontier, Allegiant - add bag fees when comparing; often match legacy carriers
+    natural_form: Budget carriers (Spirit, Frontier) may match legacy prices after adding bag fees
+    confidence: 0.85
+
+  # === US Major Carriers Hub Info ===
+
+  - type: relationship
+    subject: airline:united
+    predicate: primary_hubs
+    object: "EWR (Newark), ORD (Chicago), DEN (Denver), SFO, IAH (Houston)"
+    natural_form: United Airlines hubs include Newark, Chicago O'Hare, Denver, SFO, and Houston
+    confidence: 0.95
+
+  - type: relationship
+    subject: airline:american
+    predicate: primary_hubs
+    object: "DFW (Dallas), CLT (Charlotte), MIA (Miami), PHX (Phoenix), PHL (Philadelphia)"
+    natural_form: American Airlines hubs include DFW, Charlotte, Miami, Phoenix, and Philadelphia
+    confidence: 0.95
+
+  - type: relationship
+    subject: airline:delta
+    predicate: primary_hubs
+    object: "ATL (Atlanta), MSP (Minneapolis), DTW (Detroit), SLC (Salt Lake), SEA (Seattle)"
+    natural_form: Delta Air Lines hubs include Atlanta, Minneapolis, Detroit, Salt Lake, and Seattle
+    confidence: 0.95
+
+  # === International Carriers Notes ===
+
+  - type: fact
+    subject: airline:emirates
+    predicate: notable_feature
+    object: Known for premium service; hub in Dubai (DXB); extensive route network
+    natural_form: Emirates is known for premium service with hub in Dubai
+    confidence: 0.95
+    tags: [international, premium]
+
+  - type: fact
+    subject: airline:qatar
+    predicate: notable_feature
+    object: Multiple Skytrax World's Best Airline awards; hub in Doha (DOH)
+    natural_form: Qatar Airways has won multiple World's Best Airline awards; hub in Doha
+    confidence: 0.95
+    tags: [international, premium]
+
+  - type: fact
+    subject: airline:singapore
+    predicate: notable_feature
+    object: Consistently top-rated; known for service; hub at Changi (SIN)
+    natural_form: Singapore Airlines is consistently top-rated for service
+    confidence: 0.95
+    tags: [international, premium]

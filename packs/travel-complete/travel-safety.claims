@@ -1,0 +1,150 @@
+claims:
+  # Pre-trip safety
+  - type: fact
+    subject: safety:registration
+    predicate: recommendation
+    object: "Register with STEP (Smart Traveler Enrollment Program)"
+    natural_form: "Register your trip with STEP at step.state.gov to receive safety alerts and help in emergencies"
+    confidence: 0.95
+    tags: [safety, registration]
+
+  - type: fact
+    subject: safety:research
+    predicate: sources
+    object: "Check State Dept travel advisories and CDC health notices"
+    natural_form: "Before traveling, check US State Department travel advisories and CDC health notices for your destination"
+    confidence: 0.95
+    tags: [safety, research]
+
+  - type: fact
+    subject: safety:embassy
+    predicate: preparation
+    object: "Save nearest US embassy/consulate address and phone number"
+    natural_form: "Save the address and emergency phone number of the nearest US embassy or consulate at your destination"
+    confidence: 0.95
+    tags: [safety, embassy]
+
+  # Money and valuables
+  - type: fact
+    subject: safety:money
+    predicate: strategy
+    object: "Carry cash in multiple locations; use money belt for large amounts"
+    natural_form: "Distribute cash in multiple locations; use a hidden money belt for passport and larger amounts"
+    confidence: 0.9
+    tags: [safety, money]
+
+  - type: fact
+    subject: safety:cards
+    predicate: tip
+    object: "Notify bank of travel dates; carry backup card in separate location"
+    natural_form: "Notify your bank of travel dates to prevent fraud blocks; carry a backup credit card in a separate location"
+    confidence: 0.95
+    tags: [safety, cards]
+
+  - type: fact
+    subject: safety:atm
+    predicate: best_practice
+    object: "Use ATMs inside banks during business hours"
+    natural_form: "Use ATMs inside banks during business hours to reduce skimming and robbery risk"
+    confidence: 0.9
+    tags: [safety, atm]
+
+  - type: fact
+    subject: safety:hotel_safe
+    predicate: usage
+    object: "Use room safe for valuables; check it works before storing"
+    natural_form: "Use the hotel room safe for valuables but test that it works before storing items; note some housekeeping has access"
+    confidence: 0.85
+    tags: [safety, hotel]
+
+  # Personal safety
+  - type: fact
+    subject: safety:awareness
+    predicate: principle
+    object: "Stay alert, trust instincts, avoid displaying wealth"
+    natural_form: "Stay situationally aware, trust your instincts, and avoid displaying expensive jewelry or electronics"
+    confidence: 0.95
+    tags: [safety, awareness]
+
+  - type: fact
+    subject: safety:solo_travel
+    predicate: tips
+    object: "Share itinerary with family; check in regularly; avoid isolated areas at night"
+    natural_form: "Solo travelers should share itinerary with family, check in regularly, and avoid isolated areas at night"
+    confidence: 0.9
+    tags: [safety, solo]
+
+  - type: fact
+    subject: safety:transportation
+    predicate: guidance
+    object: "Use official taxis or rideshare apps; avoid unmarked vehicles"
+    natural_form: "Use official taxi stands, rideshare apps, or hotel-arranged transport; avoid unmarked or unofficial vehicles"
+    confidence: 0.95
+    tags: [safety, transportation]
+
+  - type: fact
+    subject: safety:drinks
+    predicate: caution
+    object: "Never leave drinks unattended; refuse drinks from strangers"
+    natural_form: "Never leave drinks unattended and refuse drinks from strangers to prevent drink spiking"
+    confidence: 0.95
+    tags: [safety, drinks]
+
+  # Scam awareness
+  - type: context
+    subject: safety:common_scams
+    predicate: types
+    object: "Fake police, friendship bracelets, closed attraction, taxi meter tricks"
+    natural_form: "Common travel scams include fake police asking for ID/wallet, friendship bracelets, 'closed' attractions, and taxi meter tricks"
+    confidence: 0.9
+    tags: [safety, scams]
+
+  - type: fact
+    subject: safety:wifi
+    predicate: security
+    object: "Avoid sensitive transactions on public WiFi; use VPN"
+    natural_form: "Avoid banking and sensitive transactions on public WiFi; use a VPN for added security"
+    confidence: 0.95
+    tags: [safety, digital, wifi]
+
+  # Emergency preparedness
+  - type: fact
+    subject: safety:emergency_numbers
+    predicate: tip
+    object: "Save local emergency numbers; 112 works in EU/many countries"
+    natural_form: "Save local emergency numbers before traveling; 112 is the universal emergency number in the EU and many countries"
+    confidence: 0.9
+    tags: [safety, emergency]
+
+  - type: fact
+    subject: safety:insurance_card
+    predicate: preparation
+    object: "Carry travel insurance card with 24/7 emergency number"
+    natural_form: "Carry your travel insurance card with the 24/7 emergency assistance number saved in your phone"
+    confidence: 0.9
+    tags: [safety, insurance]
+
+  - type: fact
+    subject: safety:first_aid
+    predicate: recommendation
+    object: "Pack basic first aid kit with destination-specific items"
+    natural_form: "Pack a basic first aid kit including bandages, antiseptic, pain relievers, and destination-specific items like altitude sickness medication"
+    confidence: 0.9
+    tags: [safety, health, first_aid]
+
+  # Hotel safety
+  - type: fact
+    subject: safety:hotel_floor
+    predicate: recommendation
+    object: "Request rooms between floors 2-6 for safety and fire escape access"
+    natural_form: "Request hotel rooms between floors 2-6; high enough for security but low enough for fire escape access"
+    confidence: 0.85
+    tags: [safety, hotel]
+
+  - type: fact
+    subject: safety:door_security
+    predicate: tip
+    object: "Use all locks, door wedge, and verify visitor identity"
+    natural_form: "Use all door locks including deadbolt and chain; consider a portable door wedge; verify visitor identity before opening"
+    confidence: 0.9
+    tags: [safety, hotel]

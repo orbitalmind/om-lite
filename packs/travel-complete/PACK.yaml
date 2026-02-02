@@ -1,0 +1,38 @@
+name: travel-complete
+version: 1.0.0
+description: Comprehensive travel knowledge including airports, booking, packing, international requirements, jet lag, and safety
+author: orbitalmind
+license: MIT
+
+enhances_skills:
+  - flight-booking
+  - travel-planning
+  - trip-assistant
+  - packing-helper
+
+regions:
+  - global
+
+claim_files:
+  - airport-tips.claims
+  - booking-strategies.claims
+  - packing-essentials.claims
+  - international-requirements.claims
+  - jet-lag-management.claims
+  - travel-safety.claims
+  - loyalty-programs.claims
+
+stats:
+  total_claims: 180
+  by_type:
+    fact: 120
+    context: 40
+    relationship: 20
+
+tags:
+  - travel
+  - airports
+  - flights
+  - international
+  - packing
+  - safety

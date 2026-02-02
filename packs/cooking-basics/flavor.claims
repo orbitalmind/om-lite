@@ -1,0 +1,100 @@
+# flavor.claims
+# Cooking basics - flavor
+
+claims:
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Honey and sugar are essential for balancing flavors."
+    natural_form: "Honey and sugar are essential for balancing flavors."
+    confidence: 0.9
+    tags: [cooking, flavor]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Soy sauce and fish sauce add umami depth to dishes."
+    natural_form: "Soy sauce and fish sauce add umami depth to dishes."
+    confidence: 0.9
+    tags: [cooking, flavor]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Every kitchen needs kosher salt black pepper and extra virgin olive oil as basics."
+    natural_form: "Every kitchen needs kosher salt black pepper and extra virgin olive oil as basics."
+    confidence: 0.9
+    tags: [cooking, flavor]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Self rising flour is one cup all purpose flour plus one and one half teaspoons baking powder plus one quarter teaspoon salt."
+    natural_form: "Self rising flour is one cup all purpose flour plus one and one half teaspoons baking powder plus one quarter teaspoon salt."
+    confidence: 0.9
+    tags: [cooking, flavor]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Too salty dishes can be balanced with acid fat or dilution."
+    natural_form: "Too salty dishes can be balanced with acid fat or dilution."
+    confidence: 0.9
+    tags: [cooking, flavor]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Taste and adjust seasoning throughout cooking not just at the end."
+    natural_form: "Taste and adjust seasoning throughout cooking not just at the end."
+    confidence: 0.9
+    tags: [cooking, flavor]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Fat carries flavor and adds richness to dishes."
+    natural_form: "Fat carries flavor and adds richness to dishes."
+    confidence: 0.9
+    tags: [cooking, flavor]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Umami adds depth and comes from tomatoes mushrooms parmesan soy sauce and miso."
+    natural_form: "Umami adds depth and comes from tomatoes mushrooms parmesan soy sauce and miso."
+    confidence: 0.9
+    tags: [cooking, flavor]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Acid such as lemon or vinegar brightens flat tasting dishes."
+    natural_form: "Acid such as lemon or vinegar brightens flat tasting dishes."
+    confidence: 0.9
+    tags: [cooking, flavor]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Salt enhances other flavors and should be added in layers while cooking."
+    natural_form: "Salt enhances other flavors and should be added in layers while cooking."
+    confidence: 0.9
+    tags: [cooking, flavor]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "The five basic tastes are sweet salty sour bitter and umami."
+    natural_form: "The five basic tastes are sweet salty sour bitter and umami."
+    confidence: 0.9
+    tags: [cooking, flavor]
+
+  - type: fact
+    subject: airline:delta
+    predicate: primary_hubs
+    object: "ATL (Atlanta), MSP (Minneapolis), DTW (Detroit), SLC (Salt Lake), SEA (Seattle)"
+    natural_form: "Delta Air Lines hubs include Atlanta, Minneapolis, Detroit, Salt Lake, and Seattle"
+    confidence: 0.95
+    tags: [cooking, flavor]

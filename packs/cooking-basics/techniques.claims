@@ -1,0 +1,292 @@
+# techniques.claims
+# Cooking basics - techniques
+
+claims:
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Use stainless or cast iron for searing and nonstick for eggs and delicate foods."
+    natural_form: "Use stainless or cast iron for searing and nonstick for eggs and delicate foods."
+    confidence: 0.9
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Neutral oil like vegetable or canola is best for high heat cooking."
+    natural_form: "Neutral oil like vegetable or canola is best for high heat cooking."
+    confidence: 0.9
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Steaming preserves nutrients by cooking with hot vapor above water."
+    natural_form: "Steaming preserves nutrients by cooking with hot vapor above water."
+    confidence: 0.9
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Braising is searing then slow cooking in liquid, covered, at low heat."
+    natural_form: "Braising is searing then slow cooking in liquid, covered, at low heat."
+    confidence: 0.9
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Add garlic after onions soften to prevent burning."
+    natural_form: "Add garlic after onions soften to prevent burning."
+    confidence: 0.9
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Let meat rest after cooking to retain juices."
+    natural_form: "Let meat rest after cooking to retain juices."
+    confidence: 0.9
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Pat proteins dry before searing for better browning."
+    natural_form: "Pat proteins dry before searing for better browning."
+    confidence: 0.9
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Mise en place means preparing all ingredients before cooking starts."
+    natural_form: "Mise en place means preparing all ingredients before cooking starts."
+    confidence: 0.9
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Simmering is gentle bubbles just below boiling for soups and stews."
+    natural_form: "Simmering is gentle bubbles just below boiling for soups and stews."
+    confidence: 0.9
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Boiling is cooking in vigorously bubbling water at 212 F (100 C)."
+    natural_form: "Boiling is cooking in vigorously bubbling water at 212 F (100 C)."
+    confidence: 0.9
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Sauteing is quick cooking over medium high heat with a small amount of fat."
+    natural_form: "Sauteing is quick cooking over medium high heat with a small amount of fat."
+    confidence: 0.9500000000000001
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: points:transfer_partners
+    predicate: value
+    object: "Amex, Chase, Citi points transfer 1:1 to many airline/hotel programs"
+    natural_form: "Credit card points from Amex, Chase, and Citi transfer 1:1 to many airline and hotel partners, often the best value"
+    confidence: 0.9
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: redemption:sweet_spots
+    predicate: examples
+    object: "Partner awards, off-peak pricing, fifth night free hotels"
+    natural_form: "Redemption sweet spots include partner airline awards, off-peak award pricing, and fifth night free on hotel stays"
+    confidence: 0.85
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: safety:embassy
+    predicate: preparation
+    object: "Save nearest US embassy/consulate address and phone number"
+    natural_form: "Save the address and emergency phone number of the nearest US embassy or consulate at your destination"
+    confidence: 0.95
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: safety:registration
+    predicate: recommendation
+    object: "Register with STEP (Smart Traveler Enrollment Program)"
+    natural_form: "Register your trip with STEP at step.state.gov to receive safety alerts and help in emergencies"
+    confidence: 0.95
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: safety:research
+    predicate: sources
+    object: "Check State Dept travel advisories and CDC health notices"
+    natural_form: "Before traveling, check US State Department travel advisories and CDC health notices for your destination"
+    confidence: 0.95
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: jet_lag:sleep_bank
+    predicate: tip
+    object: "Get extra sleep before long flights"
+    natural_form: "Get extra sleep in the days before a long flight; being well-rested reduces jet lag severity"
+    confidence: 0.9
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: jet_lag:movement
+    predicate: benefit
+    object: "Walk and stretch every 2 hours to improve circulation"
+    natural_form: "Walk the aisle and do stretching exercises every 2 hours to improve circulation and reduce fatigue"
+    confidence: 0.9500000000000001
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: jet_lag:symptoms
+    predicate: common
+    object: "Fatigue, insomnia, digestive issues, difficulty concentrating"
+    natural_form: "Common jet lag symptoms include fatigue, insomnia, digestive problems, and difficulty concentrating"
+    confidence: 1
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: customs:food_restrictions
+    predicate: warning
+    object: "Many fresh foods, meats, plants prohibited entry to US"
+    natural_form: "Fresh fruits, vegetables, meats, and plants are often prohibited from entering the US; declare all food items"
+    confidence: 1
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: packing:adapters
+    predicate: necessity
+    object: "Research destination plug types; universal adapter recommended"
+    natural_form: "Research destination plug types before travel; a universal adapter covers most countries"
+    confidence: 1
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: packing:toiletries
+    predicate: tip
+    object: "Use solid alternatives: bar soap, shampoo bars, solid deodorant"
+    natural_form: "Use solid toiletries (bar soap, shampoo bars, solid deodorant) to avoid liquid restrictions"
+    confidence: 0.9500000000000001
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: fare:basic_economy
+    predicate: restrictions
+    object: "No seat selection, no changes, last to board, often no carry-on"
+    natural_form: "Basic economy fares typically have no seat selection, no changes allowed, last boarding, and may restrict carry-on bags"
+    confidence: 1
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Secure the Docker daemon: restrict access to the socket, prefer rootless mode or SSH/HTTPS with mutual TLS; never expose the API without TLS."
+    natural_form: "Secure the Docker daemon: restrict access to the socket, prefer rootless mode or SSH/HTTPS with mutual TLS; never expose the API without TLS."
+    confidence: 0.9
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Resource limits: set CPU/memory limits and ulimits; avoid --privileged and host networking; use user-defined networks for isolation."
+    natural_form: "Resource limits: set CPU/memory limits and ulimits; avoid --privileged and host networking; use user-defined networks for isolation."
+    confidence: 0.9
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Do not bake secrets into images or ENV; use BuildKit secrets/ssh mounts and external secret stores; pass secrets at runtime."
+    natural_form: "Do not bake secrets into images or ENV; use BuildKit secrets/ssh mounts and external secret stores; pass secrets at runtime."
+    confidence: 0.9
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Kubernetes best practices (2024) highlights: 1) enforce security baselines (RBAC, Pod Security Standards, network policies, signed/scanned images), 2) set resource requests/limits and use HPA/VPA + Cluster Autoscaler to rightsize, 3) add probes, replicas, PDBs, and topology spread for reliability, 4) adopt GitOps and policy/compliance-as-code (OPA/Gatekeeper or Kyverno), 5) monitor cost with usage metering and rightsizing; use spot/preemptible where appropriate."
+    natural_form: "Kubernetes best practices (2024) highlights: 1) enforce security baselines (RBAC, Pod Security Standards, network policies, signed/scanned images), 2) set resource requests/limits and use HPA/VPA + Cluster Autoscaler to rightsize, 3) add probes, replicas, PDBs, and topology spread for reliability, 4) adopt GitOps and policy/compliance-as-code (OPA/Gatekeeper or Kyverno), 5) monitor cost with usage metering and rightsizing; use spot/preemptible where appropriate."
+    confidence: 0.9
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "API endpoint: GET https://jsonplaceholder.typicode.com/posts/{id} returns a single Post resource in JSON. Observed with /posts/1 on 2026-02-02."
+    natural_form: "API endpoint: GET https://jsonplaceholder.typicode.com/posts/{id} returns a single Post resource in JSON. Observed with /posts/1 on 2026-02-02."
+    confidence: 0.9
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Microservices patterns (2024): Saga (orchestration for complex workflows, choreography for simple), API Gateway + BFF per client, CQRS, event sourcing/read projections, database-per-service."
+    natural_form: "Microservices patterns (2024): Saga (orchestration for complex workflows, choreography for simple), API Gateway + BFF per client, CQRS, event sourcing/read projections, database-per-service."
+    confidence: 0.9
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "REST remains the simpler, more mature default for public APIs and cache-heavy workloads; GraphQL fits complex, multi-client apps needing flexible queries and faster product iteration without frequent backend changes."
+    natural_form: "REST remains the simpler, more mature default for public APIs and cache-heavy workloads; GraphQL fits complex, multi-client apps needing flexible queries and faster product iteration without frequent backend changes."
+    confidence: 0.9
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "In 2024-era comparisons, a common takeaway: GraphQL reduces over/under-fetching and aggregates data via a single endpoint, but adds client complexity and makes caching/rate limiting more custom vs REST leveraging HTTP caching easily."
+    natural_form: "In 2024-era comparisons, a common takeaway: GraphQL reduces over/under-fetching and aggregates data via a single endpoint, but adds client complexity and makes caching/rate limiting more custom vs REST leveraging HTTP caching easily."
+    confidence: 0.9
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Prefer RFC 7807 application/problem+json for REST error responses to standardize fields like type, title, status, detail, and instance."
+    natural_form: "Prefer RFC 7807 application/problem+json for REST error responses to standardize fields like type, title, status, detail, and instance."
+    confidence: 0.9
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "REST API errors should use standard HTTP status codes (4xx for client, 5xx for server) — never return 200 for failures."
+    natural_form: "REST API errors should use standard HTTP status codes (4xx for client, 5xx for server) — never return 200 for failures."
+    confidence: 0.9
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Sparse fieldsets and embedding: support fields= to select attributes and include= to embed related resources to reduce round trips and payload size."
+    natural_form: "Sparse fieldsets and embedding: support fields= to select attributes and include= to embed related resources to reduce round trips and payload size."
+    confidence: 0.9
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "HTTP methods semantics: GET is safe and cacheable; POST creates or triggers non-idempotent actions; PUT fully replaces a resource; PATCH applies partial updates; DELETE removes and should be idempotent."
+    natural_form: "HTTP methods semantics: GET is safe and cacheable; POST creates or triggers non-idempotent actions; PUT fully replaces a resource; PATCH applies partial updates; DELETE removes and should be idempotent."
+    confidence: 0.9
+    tags: [cooking, techniques]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "REST resource naming: use lowercase plural nouns (e.g., /users, /orders), hierarchical paths for containment (/users/{id}/orders), avoid verbs in paths; actions go in methods or sub-resources."
+    natural_form: "REST resource naming: use lowercase plural nouns (e.g., /users, /orders), hierarchical paths for containment (/users/{id}/orders), avoid verbs in paths; actions go in methods or sub-resources."
+    confidence: 0.9
+    tags: [cooking, techniques]

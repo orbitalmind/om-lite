@@ -1,0 +1,77 @@
+# safety.claims
+# Cooking basics - safety
+
+claims:
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Poaching is gentle cooking in liquid below simmering temperature."
+    natural_form: "Poaching is gentle cooking in liquid below simmering temperature."
+    confidence: 0.9
+    tags: [cooking, safety]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Roasting is dry heat oven cooking at moderate to high temperatures."
+    natural_form: "Roasting is dry heat oven cooking at moderate to high temperatures."
+    confidence: 0.9
+    tags: [cooking, safety]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "The bacterial danger zone is 40 to 140 F."
+    natural_form: "The bacterial danger zone is 40 to 140 F."
+    confidence: 0.9
+    tags: [cooking, safety]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Leftovers should be refrigerated within 2 hours and used within 3 to 4 days."
+    natural_form: "Leftovers should be refrigerated within 2 hours and used within 3 to 4 days."
+    confidence: 0.9
+    tags: [cooking, safety]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Refrigerator should be set at 40 F or below."
+    natural_form: "Refrigerator should be set at 40 F or below."
+    confidence: 0.9
+    tags: [cooking, safety]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Whole beef pork and lamb cuts should reach 145 F then rest 3 minutes."
+    natural_form: "Whole beef pork and lamb cuts should reach 145 F then rest 3 minutes."
+    confidence: 0.9
+    tags: [cooking, safety]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Ground meats should be cooked to 160 F internal temperature."
+    natural_form: "Ground meats should be cooked to 160 F internal temperature."
+    confidence: 0.9
+    tags: [cooking, safety]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Poultry must be cooked to 165 F internal temperature for food safety."
+    natural_form: "Poultry must be cooked to 165 F internal temperature for food safety."
+    confidence: 0.9
+    tags: [cooking, safety]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Food safety essentials from USDA and CDC: Danger zone 40–140°F; refrigerate within 2 hours (1 hour if over 90°F). Fridge at or below 40°F, freezer at 0°F. Safe minimum internal temperatures: poultry and leftovers 165°F, ground meats 160°F, whole cuts of beef, pork, lamb, veal 145°F with 3 minute rest, fish 145°F or opaque and flaky. Leftovers keep 3–4 days refrigerated. Safe thawing methods: refrigerator, cold water with water changed every 30 minutes, or microwave; never thaw on the counter. Prevent cross-contamination by separating raw meats, not washing poultry, sanitizing surfaces, and storing raw meats on the bottom shelf."
+    natural_form: "Food safety essentials from USDA and CDC: Danger zone 40–140°F; refrigerate within 2 hours (1 hour if over 90°F). Fridge at or below 40°F, freezer at 0°F. Safe minimum internal temperatures: poultry and leftovers 165°F, ground meats 160°F, whole cuts of beef, pork, lamb, veal 145°F with 3 minute rest, fish 145°F or opaque and flaky. Leftovers keep 3–4 days refrigerated. Safe thawing methods: refrigerator, cold water with water changed every 30 minutes, or microwave; never thaw on the counter. Prevent cross-contamination by separating raw meats, not washing poultry, sanitizing surfaces, and storing raw meats on the bottom shelf."
+    confidence: 0.9
+    tags: [cooking, safety]
+

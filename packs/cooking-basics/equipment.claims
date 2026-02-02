@@ -1,0 +1,84 @@
+# equipment.claims
+# Cooking basics - equipment
+
+claims:
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Half sheet pans are essential for roasting vegetables and baking cookies."
+    natural_form: "Half sheet pans are essential for roasting vegetables and baking cookies."
+    confidence: 0.9
+    tags: [cooking, equipment]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "An instant read thermometer eliminates guesswork for meat doneness."
+    natural_form: "An instant read thermometer eliminates guesswork for meat doneness."
+    confidence: 0.9
+    tags: [cooking, equipment]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "A twelve inch skillet in stainless steel or cast iron handles most stovetop cooking."
+    natural_form: "A twelve inch skillet in stainless steel or cast iron handles most stovetop cooking."
+    confidence: 0.9
+    tags: [cooking, equipment]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Apple cider vinegar and red wine vinegar are versatile pantry staples."
+    natural_form: "Apple cider vinegar and red wine vinegar are versatile pantry staples."
+    confidence: 0.9
+    tags: [cooking, equipment]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Pan frying uses shallow oil for a crisp crust on foods."
+    natural_form: "Pan frying uses shallow oil for a crisp crust on foods."
+    confidence: 0.9
+    tags: [cooking, equipment]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Always preheat pans 2 to 3 minutes before adding food."
+    natural_form: "Always preheat pans 2 to 3 minutes before adding food."
+    confidence: 0.9
+    tags: [cooking, equipment]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Do not overcrowd the pan or food will steam instead of brown."
+    natural_form: "Do not overcrowd the pan or food will steam instead of brown."
+    confidence: 0.9
+    tags: [cooking, equipment]
+
+  - type: fact
+    subject: packing:laundry
+    predicate: tip
+    object: "Pack small laundry kit for trips over 5 days"
+    natural_form: "For trips over 5 days, pack a small laundry kit (detergent sheets, sink stopper) to rewear clothes"
+    confidence: 0.9
+    tags: [cooking, equipment]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Prefer immutable, versioned tags for deployments and keep an audit trail; implement image provenance and supply chain checks in CI."
+    natural_form: "Prefer immutable, versioned tags for deployments and keep an audit trail; implement image provenance and supply chain checks in CI."
+    confidence: 0.9
+    tags: [cooking, equipment]
+
+  - type: fact
+    subject: airline:jal
+    predicate: member_of
+    object: "alliance:oneworld"
+    natural_form: "Japan Airlines (JAL) is a member of Oneworld alliance"
+    confidence: 1
+    tags: [cooking, equipment]

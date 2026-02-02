@@ -1,0 +1,135 @@
+claims:
+  # Best booking times
+  - type: fact
+    subject: booking:domestic_flights
+    predicate: optimal_advance
+    object: "1-3 months before travel"
+    natural_form: "Book domestic flights 1-3 months in advance for best prices"
+    confidence: 0.85
+    tags: [booking, timing, domestic]
+
+  - type: fact
+    subject: booking:international_flights
+    predicate: optimal_advance
+    object: "2-8 months before travel"
+    natural_form: "Book international flights 2-8 months in advance for best prices"
+    confidence: 0.85
+    tags: [booking, timing, international]
+
+  - type: fact
+    subject: booking:day_of_week
+    predicate: cheapest
+    object: "Tuesdays and Wednesdays typically cheapest to fly"
+    natural_form: "Flying on Tuesdays and Wednesdays is typically cheapest; Fridays and Sundays most expensive"
+    confidence: 0.8
+    tags: [booking, pricing]
+
+  - type: fact
+    subject: booking:time_of_day
+    predicate: cheapest
+    object: "Early morning and late night flights often cheaper"
+    natural_form: "Early morning (before 7am) and late night (after 8pm) flights are often 10-20% cheaper"
+    confidence: 0.8
+    tags: [booking, pricing]
+
+  # Price alerts and tools
+  - type: fact
+    subject: booking:price_alerts
+    predicate: recommendation
+    object: "Set alerts on Google Flights, Kayak, or Hopper"
+    natural_form: "Set price alerts on Google Flights, Kayak, or Hopper to track fare changes for your route"
+    confidence: 0.9
+    tags: [tools, alerts]
+
+  - type: fact
+    subject: booking:flexible_dates
+    predicate: savings
+    object: "Flexibility of +/- 3 days can save 20-40%"
+    natural_form: "Being flexible with travel dates by +/- 3 days can save 20-40% on airfare"
+    confidence: 0.85
+    tags: [booking, savings]
+
+  - type: fact
+    subject: booking:nearby_airports
+    predicate: savings
+    object: "Check alternate airports within 100 miles for savings"
+    natural_form: "Check alternate airports within 100 miles of your origin/destination; can save significantly"
+    confidence: 0.85
+    tags: [booking, savings]
+
+  # Fare classes and types
+  - type: fact
+    subject: fare:basic_economy
+    predicate: restrictions
+    object: "No seat selection, no changes, last to board, often no carry-on"
+    natural_form: "Basic economy fares typically have no seat selection, no changes allowed, last boarding, and may restrict carry-on bags"
+    confidence: 0.95
+    tags: [fares, restrictions]
+
+  - type: fact
+    subject: fare:refundable
+    predicate: cost
+    object: "2-3x more expensive but fully refundable"
+    natural_form: "Refundable fares cost 2-3x more but allow full refunds if plans change"
+    confidence: 0.9
+    tags: [fares, flexibility]
+
+  # Hidden city ticketing
+  - type: context
+    subject: booking:hidden_city
+    predicate: warning
+    object: "Against airline rules; risk of account ban and no checked bags"
+    natural_form: "Hidden city ticketing (booking through a hub) is against airline policies and risks account termination"
+    confidence: 0.95
+    tags: [booking, risks]
+
+  # Credit card benefits
+  - type: fact
+    subject: booking:credit_cards
+    predicate: benefit
+    object: "Travel credit cards offer 2-5x points on flights and trip protection"
+    natural_form: "Travel credit cards often earn 2-5x points on flights and include trip delay/cancellation protection"
+    confidence: 0.9
+    tags: [credit_cards, rewards]
+
+  - type: fact
+    subject: booking:portal_bonuses
+    predicate: tip
+    object: "Book through airline portals for extra miles; through card portals for extra points"
+    natural_form: "Book through airline shopping portals for bonus miles, or card travel portals for bonus points"
+    confidence: 0.85
+    tags: [rewards, tips]
+
+  # Cancellation and changes
+  - type: fact
+    subject: booking:24hr_rule
+    predicate: requirement
+    object: "US DOT requires free cancellation within 24 hours of booking"
+    natural_form: "US DOT requires airlines to allow free cancellation within 24 hours of booking for flights 7+ days out"
+    confidence: 1.0
+    tags: [regulations, cancellation]
+
+  - type: fact
+    subject: booking:flight_credits
+    predicate: validity
+    object: "Most airline credits valid for 1 year from issue date"
+    natural_form: "Most airline flight credits are valid for 1 year from the date of issue"
+    confidence: 0.85
+    tags: [credits, validity]
+
+  # Seat selection
+  - type: context
+    subject: seats:exit_row
+    predicate: requirements
+    object: "Must be 15+, able-bodied, and willing to assist in emergency"
+    natural_form: "Exit row seats require passengers to be at least 15, physically able, and willing to assist in emergencies"
+    confidence: 0.95
+    tags: [seats, requirements]
+
+  - type: fact
+    subject: seats:best_for_sleep
+    predicate: recommendation
+    object: "Window seats on left side of plane for overnight flights"
+    natural_form: "For overnight flights, window seats (especially left side) are best for sleeping against the wall"
+    confidence: 0.8
+    tags: [seats, comfort]

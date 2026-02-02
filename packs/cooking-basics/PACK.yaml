@@ -1,0 +1,53 @@
+name: cooking-basics
+version: 1.0.0
+description: Essential cooking knowledge for beginner home cooks - techniques, food safety, knife skills, flavor balancing, and kitchen essentials
+author: openclaw-community
+license: CC-BY-4.0
+
+enhances_skills:
+  - meal-planning
+  - recipe-assistance
+  - grocery-shopping
+  - kitchen-helper
+
+regions:
+  - global
+
+claim_files:
+  - techniques.claims
+  - safety.claims
+  - knife_skills.claims
+  - flavor.claims
+  - substitutions.claims
+  - equipment.claims
+  - measurements.claims
+  - pantry.claims
+
+stats:
+  total_claims: 91
+  by_type:
+    fact: 91
+  by_category:
+    techniques: 36
+    safety: 9
+    knife_skills: 9
+    flavor: 12
+    substitutions: 6
+    equipment: 10
+    measurements: 6
+    pantry: 3
+
+update_schedule: quarterly
+last_updated: 2026-02-02
+
+requires_packs: []
+
+tags:
+  - cooking
+  - beginner
+  - food-safety
+  - knife-skills
+  - techniques
+  - substitutions
+  - kitchen
+  - measurements

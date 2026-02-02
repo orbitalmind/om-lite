@@ -1,0 +1,28 @@
+# pantry.claims
+# Cooking basics - pantry
+
+claims:
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Store spices in airtight containers away from heat and light."
+    natural_form: "Store spices in airtight containers away from heat and light."
+    confidence: 0.9
+    tags: [cooking, pantry]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Garlic powder onion powder paprika and cumin are essential spices."
+    natural_form: "Garlic powder onion powder paprika and cumin are essential spices."
+    confidence: 0.9
+    tags: [cooking, pantry]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Canned tomatoes beans and broth are high utility shelf staples."
+    natural_form: "Canned tomatoes beans and broth are high utility shelf staples."
+    confidence: 0.9
+    tags: [cooking, pantry]

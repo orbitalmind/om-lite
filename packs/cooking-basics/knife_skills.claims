@@ -1,0 +1,76 @@
+# knife_skills.claims
+# Cooking basics - knife skills
+
+claims:
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "An eight inch chef knife is the essential workhorse knife for most cutting tasks."
+    natural_form: "An eight inch chef knife is the essential workhorse knife for most cutting tasks."
+    confidence: 0.9
+    tags: [cooking, knife-skills]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Hone the knife regularly to maintain edge alignment."
+    natural_form: "Hone the knife regularly to maintain edge alignment."
+    confidence: 0.9
+    tags: [cooking, knife-skills]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "A sharp knife is safer than a dull one."
+    natural_form: "A sharp knife is safer than a dull one."
+    confidence: 0.9
+    tags: [cooking, knife-skills]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Chiffonade is rolling leaves and slicing into thin ribbons."
+    natural_form: "Chiffonade is rolling leaves and slicing into thin ribbons."
+    confidence: 0.9
+    tags: [cooking, knife-skills]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Mince means to cut into very fine pieces smaller than a dice."
+    natural_form: "Mince means to cut into very fine pieces smaller than a dice."
+    confidence: 0.9
+    tags: [cooking, knife-skills]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Brunoise is a fine dice made by cross cutting julienne strips."
+    natural_form: "Brunoise is a fine dice made by cross cutting julienne strips."
+    confidence: 0.9
+    tags: [cooking, knife-skills]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Julienne cut produces matchstick sized pieces about 1/8 inch thick."
+    natural_form: "Julienne cut produces matchstick sized pieces about 1/8 inch thick."
+    confidence: 0.9
+    tags: [cooking, knife-skills]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Use claw grip with the non knife hand to protect fingertips."
+    natural_form: "Use claw grip with the non knife hand to protect fingertips."
+    confidence: 0.9
+    tags: [cooking, knife-skills]
+
+  - type: fact
+    subject: cooking
+    predicate: tip
+    object: "Use pinch grip on the knife blade for better control."
+    natural_form: "Use pinch grip on the knife blade for better control."
+    confidence: 0.9
+    tags: [cooking, knife-skills]

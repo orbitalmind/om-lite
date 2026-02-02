@@ -1,0 +1,135 @@
+claims:
+  # Arrival timing
+  - type: fact
+    subject: airport:domestic_flights
+    predicate: recommended_arrival
+    object: "2 hours before departure"
+    natural_form: "Arrive at least 2 hours before domestic flights for check-in and security"
+    confidence: 0.95
+    tags: [timing, domestic]
+
+  - type: fact
+    subject: airport:international_flights
+    predicate: recommended_arrival
+    object: "3 hours before departure"
+    natural_form: "Arrive at least 3 hours before international flights for check-in, security, and immigration"
+    confidence: 0.95
+    tags: [timing, international]
+
+  # Security tips
+  - type: fact
+    subject: tsa:liquids_rule
+    predicate: requirement
+    object: "3.4 oz (100ml) containers in 1 quart bag"
+    natural_form: "TSA requires liquids in containers of 3.4 oz (100ml) or less, all fitting in one quart-sized clear bag"
+    confidence: 1.0
+    tags: [security, liquids]
+
+  - type: fact
+    subject: tsa:laptop_rule
+    predicate: requirement
+    object: "Remove from bag for screening"
+    natural_form: "Laptops must be removed from bags and placed in separate bins for X-ray screening"
+    confidence: 0.95
+    tags: [security, electronics]
+
+  - type: fact
+    subject: tsa:precheck
+    predicate: benefit
+    object: "Expedited screening without removing shoes, laptops, liquids"
+    natural_form: "TSA PreCheck allows expedited screening without removing shoes, belts, laptops, or liquids"
+    confidence: 0.95
+    tags: [security, precheck]
+
+  - type: fact
+    subject: global_entry
+    predicate: benefit
+    object: "Expedited customs and immigration plus TSA PreCheck"
+    natural_form: "Global Entry provides expedited US customs clearance and includes TSA PreCheck benefits"
+    confidence: 0.95
+    tags: [security, global_entry]
+
+  # Gate and boarding
+  - type: fact
+    subject: boarding:general
+    predicate: timing
+    object: "30-45 minutes before departure"
+    natural_form: "Boarding typically begins 30-45 minutes before scheduled departure time"
+    confidence: 0.9
+    tags: [boarding]
+
+  - type: fact
+    subject: gate:closure
+    predicate: timing
+    object: "10-15 minutes before departure"
+    natural_form: "Gates typically close 10-15 minutes before departure; late passengers may be denied boarding"
+    confidence: 0.9
+    tags: [boarding, gates]
+
+  # Airport navigation
+  - type: context
+    subject: airport:connections
+    predicate: minimum_time
+    object: "1.5-2 hours for domestic, 2-3 hours for international"
+    natural_form: "Allow minimum 1.5-2 hours for domestic connections and 2-3 hours for international connections"
+    confidence: 0.9
+    tags: [connections, timing]
+
+  - type: fact
+    subject: airport:lounges
+    predicate: access_methods
+    object: "Priority Pass, credit card benefits, airline status, day passes"
+    natural_form: "Airport lounges can be accessed via Priority Pass, premium credit cards, airline elite status, or day passes"
+    confidence: 0.95
+    tags: [lounges, amenities]
+
+  # Power and connectivity
+  - type: fact
+    subject: airport:charging
+    predicate: tip
+    object: "Outlets near gates often limited; bring portable charger"
+    natural_form: "Power outlets near gates are often limited or occupied; bring a portable charger for long layovers"
+    confidence: 0.9
+    tags: [electronics, tips]
+
+  - type: fact
+    subject: airport:wifi
+    predicate: availability
+    object: "Most major airports offer free WiFi with time limits"
+    natural_form: "Most major airports offer free WiFi, though some have time limits or require registration"
+    confidence: 0.9
+    tags: [connectivity, wifi]
+
+  # Food and shopping
+  - type: context
+    subject: airport:food_prices
+    predicate: expectation
+    object: "30-50% higher than outside airport"
+    natural_form: "Expect airport food and beverage prices to be 30-50% higher than outside the airport"
+    confidence: 0.85
+    tags: [food, prices]
+
+  - type: fact
+    subject: airport:water_bottles
+    predicate: tip
+    object: "Bring empty bottle and fill after security"
+    natural_form: "Bring an empty water bottle through security and fill it at water fountains to save money"
+    confidence: 0.95
+    tags: [tips, savings]
+
+  # Special services
+  - type: fact
+    subject: airport:assistance
+    predicate: availability
+    object: "Wheelchair and mobility assistance available at all major airports"
+    natural_form: "Wheelchair and mobility assistance is available free at all major airports; request when booking"
+    confidence: 0.95
+    tags: [accessibility, assistance]
+
+  - type: fact
+    subject: airport:pet_relief
+    predicate: availability
+    object: "Most US airports have pet relief areas inside security"
+    natural_form: "Most US airports have designated pet relief areas inside the security checkpoint"
+    confidence: 0.9
+    tags: [pets, amenities]
